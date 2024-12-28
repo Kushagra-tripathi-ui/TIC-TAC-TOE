@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    font-family: 'Georgia', serif;
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #8d5524, #c68642, #e0ac69);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    padding: 10px 0;
+    border-bottom: 4px solid #6d4c41; /* Dark brown accent */
+    margin-bottom: 20px;
+}
+.heading1 {
+    background-color: #191913;
+}
+body{
+  /*  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);*/
+background: url('wood2.webp') no-repeat center center fixed;
+    background-size: cover;
+
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+    font-size: 16vmin;
+    /*color: #b0413e;*/
+    /*color: #081b31;*/
+    color: #cc5500;
+    background-color: #ffffc7;
+}
+#reset-btn {
+   /* padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;*/
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    background: #cc5500; /* Burnt Orange */
+    color: #ffffff;
+    border: 2px solid #993d00;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: inset -2px -2px 5px rgba(0, 0, 0, 0.3),
+                2px 2px 5px rgba(255, 255, 255, 0.2);
+    transition: transform 0.2s, background-color 0.2s;
+
+}
+#reset-btn:hover {
+    background: #a6753b;
+    transform: translateY(-2px);
+}
+#new-btn {
+   /* padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;*/
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    background: #cc5500; /* Burnt Orange */
+    color: #ffffff;
+    border: 2px solid #993d00;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: inset -2px -2px 5px rgba(0, 0, 0, 0.3),
+                2px 2px 5px rgba(255, 255, 255, 0.2);
+    transition: transform 0.2s, background-color 0.2s;
+}
+#new-btn:hover {
+    background: #a6753b;
+    transform: translateY(-2px);
+}
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+.hide {
+    display: none;
+}
+
+
